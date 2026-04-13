@@ -1,0 +1,1 @@
+shared_module('gen_testplugin', 'gen_testplugin.cpp', include_directories : winamp_sdk, name_prefix : '', link_args : ['-Wl,--nxcompat'], win_subsystem : 'windows')

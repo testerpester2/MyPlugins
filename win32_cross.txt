@@ -1,0 +1,18 @@
+[binaries]
+c = 'x86_64-w64-mingw32-gcc'
+cpp = 'x86_64-w64-mingw32-g++'
+ar = 'x86_64-w64-mingw32-ar'
+windres = 'x86_64-w64-mingw32-windres'
+strip = 'x86_64-w64-mingw32-strip'
+
+[built-in options]
+c_args = ['-target', 'i686-w64-mingw32']
+cpp_args = ['-target', 'i686-w64-mingw32']
+c_link_args = ['-target', 'i686-w64-mingw32']
+cpp_link_args = ['-target', 'i686-w64-mingw32']
+
+[host_machine]
+system = 'windows'
+cpu_family = 'x86'
+cpu = 'x86'
+endian = 'little'
